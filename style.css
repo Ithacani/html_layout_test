@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.banner {
+    height: 10%;
+    background-color: blueviolet;
+}
+
+.loading-banner {
+    height: 5%;
+    background-color: aqua;
+}
+
+
+
+.row-main {
+    height: 80%;
+    display: flex;
+    background-color: grey;
+}
+
+
+.columnInputs {
+    height: 100%; /* 100% of the .row height */
+    width: 30%;
+    background-color: teal;
+}
+.row-inputs {
+    height: 40%;
+    display: flex;
+    background-color: brown;
+}
+.row-reset {
+    height: 10%;
+    display: flex;
+    background-color: lightcoral;
+}
+.row-modals {
+    height: 50%;
+    display: flex;
+    background-color: lightgreen;
+}
+
+
+.columnMap {
+    height: 100%; /* 100% of the .row height */
+    width: 70%;
+    background-color: beige;
+}
+.map-container {
+    height: 85%;
+    background-color: darkkhaki;
+    border: solid;
+    border-color: black;
+}
+.row-timers {
+    background-color: aqua;
+    height: auto;
+}
+.timer1 {
+    padding: 4px;
+}
+.timer2 {
+    padding: 4px;
+}
+
+
+
+.footer {
+    height: 5%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
